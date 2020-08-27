@@ -1,0 +1,10 @@
+spring:
+  security:
+    user:
+      name: admin
+      password: 12345678
+  thymeleaf:
+    servlet:
+      content-type: text/html
+    mode: LEGACYHTML5
+    cache: false
