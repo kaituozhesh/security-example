@@ -18,4 +18,9 @@ public class SkipController {
         return "login";
     }
 
+    @GetMapping("/home")
+    public String home() {
+        return "home";
+    }
+
 }
