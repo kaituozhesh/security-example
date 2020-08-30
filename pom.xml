@@ -11,6 +11,7 @@
     <modules>
         <module>security-memory-example</module>
         <module>security-jdbc-example</module>
+        <module>security-tamper-proofing</module>
     </modules>
 
     <parent>
@@ -20,11 +21,20 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+    <properties>
+        <hutool.version>5.0.5</hutool.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>${hutool.version}</version>
         </dependency>
     </dependencies>
 </project>
